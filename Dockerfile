@@ -1,1 +1,2 @@
-This is docker file 
+FROM ubuntu/apache2
+COPY * /var/www/html/
